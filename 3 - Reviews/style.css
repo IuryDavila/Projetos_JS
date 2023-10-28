@@ -1,0 +1,15 @@
+
+
+
+img{
+	background: url(assets/foto.jpeg);
+	background-size: 150%;
+}
+
+.ct2{
+	height: 100%;
+}
+
+.profissao{
+	text-transform: uppercase;
+}

@@ -1,0 +1,28 @@
+header{
+	height: 4%;
+	background-color: #ccedf8;
+	margin: 10px;
+}
+
+.corpo{
+	height: 93%;
+	text-align: center;
+
+}
+
+ #corAtualTexto{
+	border: 3px solid blue;
+	border-radius: 7px;
+	position: relative;
+   	 top: 50%;
+   	 padding: 10px;
+   	 font-size: 1.8em;
+   	 
+	
+}
+
+.buttontrocar{
+	margin: 50px;
+	position: relative;
+	top: 50%;
+}

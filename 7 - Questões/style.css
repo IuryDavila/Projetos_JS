@@ -1,0 +1,90 @@
+body,html{
+	margin: 0;
+	height: 99%;
+	width: 99%;
+	background-color: #f5fcfe;
+}
+
+
+.titulo{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	position: relative;
+	top: 150px;
+	left: 780px;
+	width: 450px;
+	font-size: 5rem;
+	margin-bottom: 15px;
+	color: gold;
+
+}
+
+.blocos{
+	position: relative;
+	top: 170px;
+	left: 730px;
+	width: 550px;
+}
+
+.bloco1,.bloco2,.bloco3{
+border: 2px white solid;
+background-color: white;
+padding: 15px;
+border-radius: 7px;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) ;
+margin-bottom: 15px;
+
+}
+
+.icon1{
+display: inline-block;
+position: relative;
+left: 110px;
+}
+
+.icon2{
+display: inline-block;
+position: relative;
+left: 250px;
+}
+
+.icon3{
+display: inline-block;
+position: relative;
+left: 260px;
+}
+
+.icon1, .icon2, .icon3{
+	cursor: pointer;
+} 
+
+.linha1, .linha2, .linha3{
+width: 100%;
+border-bottom: 1px solid #000000;
+margin-top: 15px;
+}
+
+.oculto1, .linha1{
+opacity: 0;
+}
+
+.bloco1{
+	height: 60px;
+}
+
+
+.oculto2, .linha2{
+opacity: 100%;
+}
+
+.bloco2{
+	height: 150px;
+}
+
+
+.oculto3, .linha3{
+opacity: 100%;
+}
+
+.bloco3{
+	height: 150px;
+}

@@ -1,0 +1,107 @@
+
+
+
+.principal{
+	position: relative;
+	top: 70px;
+}
+
+.menu{
+}
+
+.linha{
+	border-bottom: 5px solid #e3cea5;
+	width: 6%;
+	margin-left: 47%;
+	margin-bottom: 28px;
+}
+
+.titulo{
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.lista{
+	justify-content: center;
+	text-align: center;
+	list-style: none;
+	display: flex;
+}
+
+.lista li{
+	padding: 6px;
+	margin: 6px;
+	border-width: px;
+	border-style: solid;
+	background-color: transparent;
+	border-radius: 9px;
+	border-color: #e3cea5;
+
+}
+
+.lista li:hover{
+	background-color: #e3cea5;
+	color: white;
+	cursor: pointer;
+
+}
+
+
+.conteudo .container{
+height: 865px;
+
+
+}
+
+
+.conteudo .container img{
+
+	width: 225px;
+	height: 150px;
+	position: relative;
+	margin: 10px;
+	border: 6px #8a7a00 solid;
+	border-radius: 9px;
+
+}
+
+.opcao1, .opcao2, .opcao3, .opcao4, .opcao5{
+	position: relative;
+		display: flex;
+} 	
+
+.opcao6, .opcao7, .opcao8, .opcao9, .opcao10{
+	display: flex;
+	position: relative;
+	left: 575px;
+	bottom: 852px;
+} 
+/* coreção das posições das imagens */
+.opcao7, .opcao8, .opcao9, .opcao10{
+	bottom: 866px;
+}
+
+.conteudo .container h5{
+width: 290px;
+}
+
+
+.textos{
+	margin-top: 10px;
+}
+
+.valor{
+	float: right;
+	position: relative;
+	top: -31px;
+}
+
+hr{
+	margin: 0;
+}
+
+p{
+margin-top: 6px;
+}
+
