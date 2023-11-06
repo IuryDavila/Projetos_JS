@@ -1,0 +1,50 @@
+body{
+	background-color: #e4e4e4;
+}
+.titulo{
+	text-align: center;
+	width: 1000px;
+	padding-top:70px;
+}
+
+.imagem{
+	padding-top: 70px;
+}
+
+.imagem img{
+	width: 569px;
+	height: 320px;
+	border-radius: 7px;
+
+}
+
+.tabs{
+	position: relative;
+	left: 605px;
+	bottom: 320px;
+}
+
+
+
+.tabs .btn{
+	padding: 11px 45px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	color: black;
+	background-color: #e8e8e8;
+	border:0;
+
+}
+
+
+.caixa{
+	width: 503px;
+	height: 280px;
+	padding: 15px;
+	background-color: #117b8b;
+	color: white;
+	border-radius: 0 0 7px 7px;
+}
+
+
+
