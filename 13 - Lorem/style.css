@@ -1,0 +1,43 @@
+body{
+	background-color: #eeeeee;
+	border: 5px solid blue;
+}
+.geral{
+	border: 1px solid gray;	
+	padding: 50px;
+	
+}
+
+.principal{
+	display: inline;
+	text-align: center;
+
+}
+
+.principal h1{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.principal p{
+	display:inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+input{
+	border-radius: 6px;
+	border: none;
+	height: 38px;
+	width: 45px;
+	margin: 4px;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+}
+
+button{
+	position: relative;
+	bottom: 2px;
+}

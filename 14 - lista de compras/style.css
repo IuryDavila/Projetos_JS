@@ -1,0 +1,91 @@
+body{
+	background-color: #ededed;
+}
+
+.principal{
+	text-align: center;
+	margin-top: 157px;
+	padding: 75px;
+	background-color: white;
+	box-shadow: 3px 4px 4px gray;
+	border-radius: 8px;
+}
+
+.principal .alerta{
+	font-size: 0.8em;
+	position: relative;
+	bottom: 45px;
+}
+
+
+.titulo h1{
+	padding-bottom: 22px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.6em;
+}
+
+.corpo .entrada{
+	width: 351px;
+	margin-right: -5px;
+	border: none;
+	background-color: #ededed;
+	border: 3px solid #ededed;
+	border-radius: 7px 0 0 7px;
+	padding-left: 11px;
+}
+
+.corpo .botao{
+	background-color: #a3f2f6;
+	border: 3px solid #a3f2f6;
+	border-radius:  0px 7px 7px 0px;
+}
+
+.botao:hover{
+	color: white;
+	background-color: #4ea6ff;
+	border: 3px solid #4ea6ff;
+}
+
+.principal .lista{
+	padding: 5px 0 ;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-color: white;
+	text-align: justify;
+}
+
+.principal .lista:hover{
+	background-color:#ededed ;
+}
+
+.principal .lista .item{
+	padding: 7px;
+
+}
+
+
+
+.principal .lista .botons{
+	cursor: pointer;
+	float: right;
+}
+
+
+
+.principal > #lista button, .lista button{
+	border: none;
+	background-color: transparent;
+}
+
+.principal .lista .testedelete{
+	cursor: pointer;
+}
+
+.limpar{
+	margin-top: 29px;
+	padding: 3px;
+	color: darkred;
+	letter-spacing: 2px;
+}
